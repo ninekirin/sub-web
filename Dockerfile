@@ -2,6 +2,7 @@
 FROM node:22-alpine AS build
 WORKDIR /app
 COPY . .
+ENV http_proxy http://172.17.0.1:7890
 RUN yarn install
 RUN yarn build
 
