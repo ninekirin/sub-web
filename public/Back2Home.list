@@ -1,4 +1,4 @@
 # 内容：Back2Home 回家规则
 # 数量：2条
-DOMAIN-SUFFIX,home-v4.baka.link
+DOMAIN-SUFFIX,baka.link
 IP-CIDR,117.44.24.0/21,no-resolve
